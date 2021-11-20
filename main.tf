@@ -5,4 +5,3 @@ module "aws_ec2_create" {
 	module_pem_key = var.root_pem_key
 	module_instance_name = var.root_instance_name
 }
-

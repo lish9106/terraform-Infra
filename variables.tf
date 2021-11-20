@@ -1,6 +1,6 @@
 variable "root_ec2_ami" {
 	type = string
-	default = "ami-0567e0d2b4b2169ae"
+	default = "ami-0629230e074c580f2"
 }
 
 variable "root_ec2_type" {
@@ -10,10 +10,10 @@ variable "root_ec2_type" {
 
 variable "root_pem_key" {
 	type = string
-	default = "devopsep2021"
+	default = "dev-training"
 }
 
 variable "root_instance_name" {
 	type = string
-	default = "test_instance"
+	default = "test1"
 }
